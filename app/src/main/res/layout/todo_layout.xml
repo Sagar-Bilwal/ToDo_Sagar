@@ -12,14 +12,9 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:orientation="horizontal">
-            <TextView
-                android:layout_width="70dp"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:text="Task"
-                android:textAlignment="center"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            //hello
+
+
         <TextView
             android:id="@+id/task"
             android:layout_width="match_parent"
