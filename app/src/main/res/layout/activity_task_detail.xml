@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sagar.todo.task_detail"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Task"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/detail_task"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Task"
+            android:gravity="center"
+            android:inputType="text"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Time"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    <EditText
+        android:id="@+id/detail_time"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp"
+        android:hint="Time"
+        android:inputType="time"
+        android:textAlignment="center" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/save"
+        android:onClick="save"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Save" />
+</LinearLayout>
